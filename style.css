@@ -406,12 +406,6 @@ footer #langBtn {
 }
 
 @media screen and (min-width:1400px) {
-    .main {
-        /*height: 55vh;*/
-    }
-}
-
-@media screen and (min-width:1400px) {
 
     .faq-content {
         width: 60%;
