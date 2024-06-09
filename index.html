@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:850px)" href="styleResponsive.css">
+
+    <script src="https://kit.fontawesome.com/6cd3f5aeaf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- Navigation bar -->
+        <nav>
+            <div><img width="130px" src="assets/logo.svg" alt=""></div>
+            <div>
+                <button class="button" id="langBtn">English <i class="fa-solid fa-caret-down"></i></button>
+                <button class="button redBtn" id="signIn">Sign In</button>
+            </div>
+        </nav>
+
+        <!-- Overlay over background image -->
+        <div class="box"></div>
+
+        <!-- Main interface(hero) -->
+        <div class="hero">
+            <span class="title"> Unlimited movies, TV shows, and more</span>
+            <span>Watch anywhere. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="getStarted">
+                <div class="email-box">
+                    <input id="email" type="email" placeholder="" required>
+                    <label for="email">Email address</label>
+                </div>
+                <div><button class="button redBtn">Get Started ></button></div>
+            </div>
+        </div>
+
+        <!-- Subscription plans Menu -->
+        <div class="subPlans">
+            <div><img src="assets/popcorn.png" alt=""></div>
+            <div class="moreInfo">
+                <p>The Netflix you love for just $5.99.</p>
+                <p>Get the Standard with ads plan.</p>
+                <p><a href="">Learn more ></a></p>
+            </div>
+        </div>
+
+        <!-- Video-content -->
+        <section class="video-section">
+
+            <!-- 1st row -->
+            <div class="video-content">
+                <div class="moreInfo">
+                    <p class="title">Enjoy on your TV</p>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="video-container">
+                    <img src="assets/monitor1.png" alt="">
+                    <video src="assets/video1.m4v" autoplay muted loop></video>
+                </div>
+            </div>
+            <div class="border"></div>
+
+            <!-- 2nd row -->
+            <div class="video-content reverse-row" id="second-row">
+                <div class="moreInfo">
+                    <p class="title">Watch everywhere</p>
+                    <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+                </div>
+                <div class="video-container">
+                    <img src="assets/monitor2.png" alt="">
+                    <video src="assets/video2.m4v" autoplay muted loop></video>
+                </div>
+            </div>
+            <div class="border"></div>
+
+            <!-- 3rd row -->
+            <div class="video-content">
+                <div class="moreInfo">
+                    <p class="title">Create profiles for kids</p>
+                    <p>Send kids on adventures with their favorite characters in a space made just for them—free with
+                        your
+                        membership.</p>
+                </div>
+                <div class="video-container">
+                    <img src="assets/img3.png" alt="">
+                </div>
+            </div>
+            <div class="border"></div>
+
+            <!-- 4th row -->
+            <div class="video-content reverse-row" id="dn-section">
+                <div class="moreInfo">
+                    <p class="title">Download your shows to watch offline</p>
+                    <p>Watch on a plane, train, or submarine...</p>
+                </div>
+                <div class="video-container">
+                    <img src="assets/img4.jpg" alt="">
+
+                    <!-- Download overlay Box -->
+                    <div class="dn-overlay">
+                        <div>
+                            <img src="assets/strangerthings.png" alt="">
+                        </div>
+                        <div>
+                            <p>Stranger Things</p>
+                            <span>Downloading...</span>
+                        </div>
+                        <div class="download-icon"><img src="assets/download-icon.gif" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+
+        </section>
+
+        <!-- FAQs -->
+        <section class="faq-section">
+
+            <div class="faq-content">
+                <h1 class="title">Frequently Asked Questions</h1>
+
+                <div class="ques-container">
+                    <div class="ques-box">
+                        <span>What is Netflix?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="ques-box">
+                        <span>How much does Netflix cost?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="ques-box">
+                        <span>Where can I watch?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="ques-box">
+                        <span>How do I cancel?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="ques-box">
+                        <span>What can I watch on Netflix?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="ques-box">
+                        <span>Is Netflix good for kids?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="signIn">
+                    <span>Ready to watch? Enter your email to create or restart your membership.</span>
+                    <div class="getStarted">
+                        <div class="email-box">
+                            <input id="email" type="email" placeholder="" required>
+                            <label for="email">Email address</label>
+                        </div>
+                        <div><button class="button redBtn">Get Started ></button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+        </section>
+
+        <footer>
+            <div class="footer-section">
+                <div>Questions? Call <a href="">1-844-542-4813</a></div>
+                <div class="footer-main">
+                    <div class="footer-boxes">
+                        <span><a href="https://www.netflix.com/faq">FAQ</a></span>
+                        <span><a href="https://help.netflix.com">Help Center</a></span>
+                        <span><a href="https://www.netflix.com/account">Account</a></span>
+                        <span><a href="https://media.netflix.com">Media Center</a></span>
+                        <span><a href="https://www.netflixinvestor.com">Investor Relations</a></span>
+                    </div>
+                    <div class="footer-boxes">
+                        <span><a href="https://jobs.netflix.com">Jobs</a></span>
+                        <span><a href="https://shop.netflix.com">Netflix Shop</a></span>
+                        <span><a href="https://www.netflix.com/redeem">Redeem Gift Cards</a></span>
+                        <span><a href="https://www.netflix.com/gift-cards">Buy Gift Cards</a></span>
+                        <span><a href="https://www.netflix.com/watch">Ways to Watch</a></span>
+                    </div>
+                    <div class="footer-boxes">
+                        <span><a href="https://www.netflix.com/terms-of-use">Terms of Use</a></span>
+                        <span><a href="https://www.netflix.com/privacy">Privacy</a></span>
+                        <span><a href="https://www.netflix.com/cookie-preferences">Cookie Preferences</a></span>
+                        <span><a href="https://www.netflix.com/corporate-information">Corporate Information</a></span>
+                        <span><a href="https://www.netflix.com/contact-us">Contact Us</a></span>
+                    </div>
+                    <div class="footer-boxes">
+                        <span><a href="https://fast.com">Speed Test</a></span>
+                        <span><a href="https://www.netflix.com/legal-notices">Legal Notices</a></span>
+                        <span><a href="https://www.netflix.com/only-on-netflix">Only on Netflix</a></span>
+                        <span><a href="https://www.netflix.com/ad-choices">Ad Choices</a></span>
+                    </div>
+
+                </div>
+                <div>
+                    <button class="button" id="langBtn">English <i class="fa-solid fa-caret-down"></i></button>
+                </div>
+                <div>Netflix Canada</div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

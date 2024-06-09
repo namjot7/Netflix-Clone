@@ -1,0 +1,174 @@
+nav {
+    /* flex-direction: column; */
+    width: 90vw;
+}
+
+.title {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial !important;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+.main {
+    height: 60vh;
+}
+
+.hero {
+    margin-top: 10px;
+    font-size: 18px;
+    /* height: 50%; */
+}
+
+.hero> :nth-child(1) {
+    font-size: 32px;
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+}
+
+.hero> :nth-child(3) {
+    font-size: 18px;
+}
+
+
+
+/* Subscription plans */
+
+.subPlans {
+    position: relative;
+    background: radial-gradient(120.35% 220% at 49.86% -6.29%,
+            #e50914 0%,
+            #0e1b4f 46.15%,
+            #0d1121 100%);
+    /* flex-direction: column; */
+    margin: 0 20px;
+}
+
+.subPlans .moreInfo {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.subPlans img {
+    width: 80px;
+    /* position: absolute; */
+    /* top: -26px; */
+    /* left: 0; */
+}
+
+/* Videos content */
+
+.video-content {
+    flex-direction: column;
+    margin: auto;
+    padding: 40px 17px;
+}
+
+.video-content .moreInfo {
+    text-align: center;
+}
+
+/* .video-content .title {
+    font-size: 37px;
+} */
+
+.video-content span {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+#dn-section .video-container {
+    width: 450px;
+}
+
+.dn-overlay {
+    left: 18%;
+}
+
+/* FAQs */
+.faq-content {
+    margin: 50px 20px;
+}
+
+.ques-box span {
+    font-size: 18px;
+}
+
+.ques-box i {
+    font-size: 24px;
+}
+
+.faq-section .signIn h3 {
+    width: 80%;
+    margin: auto;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.getStarted .redBtn {
+    font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.footer-section {
+    margin: 0;
+}
+
+.footer-main {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width:600px) {
+    .getStarted {
+        /* width: 80vw; */
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .getStarted input {
+        width: 100%;
+        padding: 25px 20px 5px 20px;
+    }
+
+    .getStarted .email-box {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .email-box label {
+        top: 18px;
+    }
+
+    .getStarted input:focus~label,
+    .getStarted input:not(:placeholder-shown)~label {
+        top: 8px;
+        /* font-size: 12px; */
+    }
+
+    /* .faq-content .email-box label {
+        width: 80vw;
+        margin: auto;
+    } */
+
+    .subPlans {
+        justify-content: normal;
+    }
+
+    .subPlans img {
+        width: 70px;
+        position: absolute;
+        top: -26px;
+        left: 0;
+    }
+
+    .subPlans .moreInfo {
+        padding-top: 55px;
+    }
+
+}
