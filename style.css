@@ -37,6 +37,14 @@ body {
     margin-bottom: 20px;
 }
 
+.border {
+    background-color: #363636;
+    height: 8px;
+    width: 100%;
+}
+
+/* main content begins here */
+
 .main {
     position: relative;
     height: 90vh;
@@ -165,8 +173,6 @@ nav .redBtn {
     border-radius: 4px;
 }
 
-.getStarted .redBtn {}
-
 /* Subscription Plans section */
 
 .subPlans {
@@ -227,12 +233,6 @@ nav .redBtn {
     padding: 40px;
 }
 
-.border {
-    background-color: #363636;
-    height: 8px;
-    width: 100%;
-}
-
 .video-content span {
     font-size: 24px;
 }
@@ -251,7 +251,7 @@ nav .redBtn {
 .video-container video {
     overflow: hidden;
     position: absolute;
-    top: 46%;
+    top: 49%;
     left: 50%;
     z-index: -1;
 
